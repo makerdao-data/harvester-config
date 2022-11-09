@@ -10,7 +10,7 @@
         "db_min_block" : 14751640,
         "db_min_timestamp" : "2022-05-10 22:00:00",
         "db_table" : "events",
-        "is_active" : 1,
+        "is_active" : 1
     },
     {
         "name" : "l2_dai_bridge",
@@ -23,7 +23,7 @@
         "db_min_block" : 2087,
         "db_min_timestamp" : "2022-05-10 22:00:00",
         "db_table" : "events",
-        "is_active" : 1,
+        "is_active" : 1
     },
     {
         "name" : "L1Escrow",
@@ -36,7 +36,7 @@
         "db_min_block" : 14742549,
         "db_min_timestamp" : "2022-05-09 08:00:00",
         "db_table" : "events",
-        "is_active" : 1,
+        "is_active" : 1
     },
     {
         "name" : "dai",
@@ -49,7 +49,7 @@
         "db_min_block" : 2040,
         "db_min_timestamp" : "2022-05-09 11:00:00",
         "db_table" : "events",
-        "is_active" : 1,
+        "is_active" : 1
     },
     {
         "name" : "L1DAIBridge",
@@ -62,7 +62,7 @@
         "db_min_block" : 15804000,
         "db_min_timestamp" : "2022-10-22 09:00:00",
         "db_table" : "events",
-        "is_active" : 1,
+        "is_active" : 1
     },
     {
         "name" : "l2/l2_dai_bridge",
@@ -75,6 +75,6 @@
         "db_min_block" : 6280,
         "db_min_timestamp" : "2022-10-22 01:00:00",
         "db_table" : "events",
-        "is_active" : 1,
+        "is_active" : 1
     }
 ]
