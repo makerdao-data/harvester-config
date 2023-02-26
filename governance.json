@@ -51,5 +51,18 @@
         "db_min_timestamp":"2022-04-27 01:00:00",
         "db_table":"events",
         "is_active" : 1
-    }
+    },
+    {
+        "name":"DssBlow",
+        "label":"DssBlow",
+        "network":"governance",
+        "address":"0x0048fc4357db3c0f45adea433a07a20769ddb0cf",
+        "abi" : [{"inputs":[{"internalType":"address","name":"daiJoin_","type":"address"},{"internalType":"address","name":"vow_","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"Blow","type":"event"},{"inputs":[],"name":"blow","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"wad","type":"uint256"}],"name":"blow","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"dai","outputs":[{"internalType":"contract DaiLike","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"daiJoin","outputs":[{"internalType":"contract DaiJoinLike","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"vow","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"}],
+        "layer":"l1",
+        "db_source" : "node",
+        "db_min_block" : 13587340,
+        "db_min_timestamp":"2021-11-10 01:00:00",
+        "db_table":"events",
+        "is_active" : 1
+    },
 ]
