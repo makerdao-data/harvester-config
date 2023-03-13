@@ -99,7 +99,7 @@
         "layer":"l1",
         "db_source" : "node",
         "db_min_block" : 13241730,
-        "db_min_timestamp":"2021-09-17 5:00:00",
+        "db_min_timestamp":"2021-09-17 05:00:00",
         "db_table":"events",
         "is_active" : 1
     },
