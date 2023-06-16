@@ -688,4 +688,17 @@
         "db_table":"events",
         "is_active" : 1
     },
+    {
+        "name": "Proxy",
+        "label":"SES Auditor Wallet",
+        "network":"governance",
+        "address":"0x87AcDD9208f73bFc9207e1f6F0fDE906bcA95cc6",
+        "abi" : [{"inputs":[{"internalType":"address","name":"_masterCopy","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"}],
+        "layer":"l1",
+        "db_source" : "node",
+        "db_min_block": 12331143,
+        "db_min_timestamp":"2021-04-27 13:00:00",
+        "db_table":"events",
+        "is_active" : 1
+    },
 ]
