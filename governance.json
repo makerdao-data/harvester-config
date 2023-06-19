@@ -713,5 +713,5 @@
         "db_min_timestamp":"2023-05-03 14:00:00",
         "db_table":"events",
         "is_active" : 1
-    },
+    }
 ]
