@@ -662,4 +662,56 @@
         "db_table":"events",
         "is_active" : 1
     },
+    {
+        "name": "Proxy",
+        "label":"CES Auditor Wallet",
+        "network":"governance",
+        "address":"0x25307aB59Cd5d8b4E2C01218262Ddf6a89Ff86da",
+        "abi" : [{"inputs":[{"internalType":"address","name":"_masterCopy","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"}],
+        "layer":"l1",
+        "db_source" : "node",
+        "db_min_block": 12703990,
+        "db_min_timestamp":"2021-06-25 13:00:00",
+        "db_table":"events",
+        "is_active" : 1
+    },
+    {
+        "name": "GnosisSafeProxy",
+        "label":"TechOps Auditor Wallet",
+        "network":"governance",
+        "address":"0x1a3DA79ee7dB30466cA752DE6a75DEf5e635b2f6",
+        "abi" : [{"inputs":[{"internalType":"address","name":"_singleton","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"stateMutability":"payable","type":"fallback"}],
+        "layer":"l1",
+        "db_source" : "node",
+        "db_min_block": 14048280,
+        "db_min_timestamp":"2022-01-21 09:00:00",
+        "db_table":"events",
+        "is_active" : 1
+    },
+    {
+        "name": "GnosisSafeProxy",
+        "label":"Governance Security Engineering",
+        "network":"governance",
+        "address":"0x569fad613887ddd8c1815b56a00005bca7fda9c0",
+        "abi" : [{"inputs":[{"internalType":"address","name":"_singleton","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"stateMutability":"payable","type":"fallback"}],
+        "layer":"l1",
+        "db_source" : "node",
+        "db_min_block": 17181330,
+        "db_min_timestamp":"2023-05-03 14:00:00",
+        "db_table":"events",
+        "is_active" : 1
+    },
+    {
+        "name": "GnosisSafeProxy",
+        "label":"Multichain Engineering",
+        "network":"governance",
+        "address":"0x868B44e8191A2574334deB8E7efA38910df941FA",
+        "abi" : [{"inputs":[{"internalType":"address","name":"_singleton","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"stateMutability":"payable","type":"fallback"}],
+        "layer":"l1",
+        "db_source" : "node",
+        "db_min_block": 17181295,
+        "db_min_timestamp":"2023-05-03 14:00:00",
+        "db_table":"events",
+        "is_active" : 1
+    },
 ]
